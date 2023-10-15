@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+
+#navbar {
+  
+    background-image: url(images/starz.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+#pic{
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+    text-align: center;
+    
+    
+    margin-right:auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+
+}
+
+#indextext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(230, 249, 250);
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70%;
+    float: right;
+    
+
+}
+
+#gallerytext {
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(230, 249, 250);
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 10px;   
+    float: right;
+
+}
+
+.banner
+{
+    background-image: url(images/image9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+.text{
+    text-decoration: none ;
+
+    position: absolute;
+    color: blanchedalmond;
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 80%;  
+     
+    float: right;
+}
+
+.content h1{
+    margin-left:  55%;
+    color:  rgb(243, 238, 211);
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    
+}
+
+
+
+.content h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 55% ;
+    color:rgb(215, 248, 208);
+    text-shadow: 5px 5px 5px rgba(5,5,5,0.5); 
+
+    position: absolute;
+    bottom: 55%;
+}
+
+.content a {
+
+    text-decoration: none ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 55%;
+    color:rgb(214, 255, 249);
+    font-size:x-large;
+    font-weight: 800;
+    bottom: 40%;
+    border: solid rgb(29, 48, 109);
+    padding: 0.5%;
+    border-radius: 10px;
+    position: absolute; 
+  
+    background-color: rgb(29, 48, 109);
+    
+   
+}   
+
+.footer{
+    background-image: url(images/starz.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    display: inline-block;
+    
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer h3{
+    
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(226, 255, 244);
+    margin-bottom: 5vh;
+    text-align: left;
+    margin-left: 2%;
+}
+
+#link a img{
+    margin-right: 2.5px;
+   float: right;
+   text-align: center;
+   padding: 5px;
+   
+   width: 2vw;
+
+   height: 4vh;
+}

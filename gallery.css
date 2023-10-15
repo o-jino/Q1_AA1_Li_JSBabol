@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+
+#navbar {
+  
+    background-image: url(images/starz.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+#pic{
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+    text-align: center;
+    
+    
+    margin-right:auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+
+}
+
+#indextext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(230, 249, 250);
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 70%;
+    float: right;
+    
+
+}
+
+#gallerytext {
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(230, 249, 250);
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 10px;   
+    float: right;
+
+}
+
+.banner
+{
+    background-color: rgb(14, 30, 59);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+        
+.banner h1{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(223, 230, 230);
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+
+
+.pic  {
+   
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    height: 30%;
+    margin-bottom: 30px;
+
+}
+
+.pic #image{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fbffc2;
+    margin: 20px;
+    object-fit: cover; 
+}
+
+
+.footer{
+    background-image: url(images/starz.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    display: inline-block;
+    
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer h3{
+    
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(226, 255, 244);
+    margin-bottom: 5vh;
+    text-align: left;
+    margin-left: 2%;
+}
+
+#link a img{
+    margin-right: 2.5px;
+   float: right;
+   text-align: center;
+   padding: 5px;
+   
+   width: 2vw;
+
+   height: 4vh;
+}
